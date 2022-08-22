@@ -1,0 +1,139 @@
+[2022-22-08 06:31:43] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 06:31:44] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 06:35:50] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 06:35:50] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 10:49:13] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 10:49:13] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 17:53:30] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 17:53:30] [INFO]: 🚀 Server listening at: http://192.168.1.21:8888
+[2022-22-08 17:54:26] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 17:54:26] [INFO]: 🚀 Server listening at: http://192.168.1.21:8888
+[2022-22-08 17:54:41] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 17:54:41] [INFO]: 🚀 Server listening at: http://192.168.1.21:8888
+[2022-22-08 11:04:32] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:04:32] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:06:14] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:06:14] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:14:08] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:14:08] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:37:07] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:37:07] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:40:55] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:40:55] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:41:20] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:41:20] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:44:31] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:44:31] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:45:41] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:45:41] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:46:08] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:46:08] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 11:46:24] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-22-08 11:46:24] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:23:48] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:23:48] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:27:15] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:27:15] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:28:04] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:28:04] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:28:06] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:28:06] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:28:19] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:28:19] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:29:03] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 172.23.0.2:23306
+[2022-22-08 13:29:03] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:29:12] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:29:12] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:29:20] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:29:20] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:30:04] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 172.23.0.2:23306
+[2022-22-08 13:30:04] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:30:11] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:30:11] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:32:16] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:16] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:32:16] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:32:26] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:26] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:26] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:26] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:26] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:32:26] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:32:33] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:33] [INFO]: 🚀 MySQL listening at: medihome
+[2022-22-08 13:32:33] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:33] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:33] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:32:33] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:32:37] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:37] [INFO]: 🚀 MySQL listening at: medihome
+[2022-22-08 13:32:37] [INFO]: 🚀 MySQL listening at: mh123456
+[2022-22-08 13:32:37] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:37] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:32:37] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:32:41] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:32:41] [INFO]: 🚀 MySQL listening at: medihome
+[2022-22-08 13:32:41] [INFO]: 🚀 MySQL listening at: mh123456
+[2022-22-08 13:32:41] [INFO]: 🚀 MySQL listening at: mh_database
+[2022-22-08 13:32:41] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:32:41] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:33:14] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'medihome'@'172.23.0.3' (using password: YES)
+[2022-22-08 13:33:14] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:33:26] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:33:26] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:33:55] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:33:55] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:37:06] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:37:06] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:37:08] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+[2022-22-08 13:37:08] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:41:55] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 172.24.0.2:3306
+[2022-22-08 13:41:55] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:42:42] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: Access denied for user 'root'@'172.24.0.4' (using password: YES)
+[2022-22-08 13:42:42] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:42:48] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:42:49] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:43:20] [INFO]: 🚀 MySQL listening at: mysql
+[2022-22-08 13:43:20] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:44:20] [INFO]: 🚀 MySQL listening at: mysql:
+[2022-22-08 13:44:20] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888
+[2022-22-08 13:44:23] [INFO]: 🚀 MySQL listening at: mysql:mysql
+[2022-22-08 13:44:23] [INFO]: 🚀 Server listening at: http://127.0.0.1:8888

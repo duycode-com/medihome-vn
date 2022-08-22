@@ -1,0 +1,101 @@
+version: '3.3'
+
+networks:
+  mh_network:
+    driver: bridge
+
+services:
+  nginx:
+    container_name: mhc_nginx
+    image: nginx:1.23.1-alpine
+    depends_on:
+      - nodejs
+    restart: always
+    networks:
+      - mh_network
+    volumes:
+      - ./mh-nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./mh-reactjs/build/:/home/mh-reactjs/build/
+    ports:
+      - "8080:80"
+
+  mysql:
+    container_name: mhc_mysql
+    image: mysql:8.0.30
+    restart: always
+    networks:
+      - mh_network
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./mh-mysql/data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=medihome2022
+      - MYSQL_DATABASE=mh_database
+      - MYSQL_USER=medihome
+      - MYSQL_PASSWORD=mh123456
+    ports:
+      - "23306:3306"
+
+  # mongo:
+  #   image: mongo:5.0.10
+  #   container_name: mhc_mongo
+  #   restart: always
+  #   networks:
+  #     - mh_network
+  #   volumes:
+  #     - ./mh-mongo/data:/data/db
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: medihome2022
+  #   ports:
+  #     - 27017:27017
+
+  nodejs:
+    container_name: mhc_nodejs
+    image: mhi_nodejs:1.0.0
+    restart: always
+    depends_on:
+      # - mongo
+      - mysql
+    networks:
+      - mh_network
+    build:
+      dockerfile: Dockerfile
+      context: "./mh-nodejs"
+    volumes:
+      - ./mh-nodejs/build:/app/build
+      - ./mh-nodejs/logs:/app/logs
+    ports:
+      - "18888:8888"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=mh_database
+      - MYSQL_USER=medihome
+      - MYSQL_PASSWORD=mh123456
+
+  # mongo-express:
+  #   image: mongo-express:0.54
+  #   container_name: mhc_mongo_express
+  #   restart: always
+  #   depends_on:
+  #     - mongo
+  #   networks:
+  #     - mh_network
+  #   ports:
+  #     - 28081:8081
+  #   environment:
+  #     ME_CONFIG_MONGODB_ADMINUSERNAME: root
+  #     ME_CONFIG_MONGODB_ADMINPASSWORD: medihome2022
+  #     ME_CONFIG_MONGODB_URL: mongodb://root:Medihome2022@mongo:27017/
+
+  mysql-adminer:
+    image: adminer:4.8.1
+    container_name: mhc_mysql_adminer
+    restart: always
+    depends_on:
+      - mysql
+    networks:
+      - mh_network
+    ports:
+      - 28082:8080
