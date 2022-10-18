@@ -1,0 +1,7 @@
+[2022-17-10 16:58:24] [INFO]: 🚀 MySQL listening at: mysql:3306
+[2022-17-10 16:58:24] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-17-10 17:29:26] [INFO]: 🚀 MySQL listening at: mysql:3306
+[2022-17-10 17:29:26] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-17-10 18:35:23] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_HOST_NOT_PRIVILEGED: Host '172.18.0.6' is not allowed to connect to this MySQL server
+[2022-17-10 18:35:23] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000

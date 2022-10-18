@@ -1,7 +1,9 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/no-extraneous-dependencies */
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import path from 'path'
+import Env from './config.js'
 
 export default (env = {}, options = {}) => ({
   entry: { bundle: './src/index' },
@@ -86,7 +88,7 @@ export default (env = {}, options = {}) => ({
   ],
   devServer: {
     static: path.resolve('./dist'),
-    port: 5000,
+    port: Env.LOCAL_POST,
     compress: true,
     hot: true, // hot: reload mà không cần tải lại trang
     historyApiFallback: true, // F5 vẫn giữ được router

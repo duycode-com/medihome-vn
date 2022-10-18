@@ -1,0 +1,5 @@
+[2022-16-10 10:34:15] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: connect ECONNREFUSED 172.20.0.4:3306
+[2022-16-10 10:34:15] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-16-10 12:09:33] [INFO]: 🚀 MySQL listening at: mysql:3306
+[2022-16-10 12:09:33] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000

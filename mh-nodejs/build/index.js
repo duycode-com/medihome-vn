@@ -32,10 +32,10 @@ const start = () => __awaiter(void 0, void 0, void 0, function* () {
     catch (error) {
         logger_utils_1.default.error(new error_utils_1.default(500, 'MYSQL_CONNECT_FAIL', error.message));
     }
-    const server = new server_1.default(env_config_1.default.server.PORT);
+    const server = new server_1.default(env_config_1.default.server.CONTAINER_PORT);
     server.initialize();
-    server.app.listen(env_config_1.default.server.PORT, () => {
-        logger_utils_1.default.info(`🚀 Server listening at: http://${env_config_1.default.server.ADDRESS}:${env_config_1.default.server.PORT}`);
+    server.app.listen(env_config_1.default.server.CONTAINER_PORT, () => {
+        logger_utils_1.default.info(`🚀 Server listening at: http://${env_config_1.default.server.ADDRESS}:${env_config_1.default.server.DOCKER_PORT}`);
     });
 });
 start();

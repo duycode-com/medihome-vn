@@ -1,0 +1,12 @@
+[2022-18-10 19:07:21] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_HOST_NOT_PRIVILEGED: Host '172.19.0.4' is not allowed to connect to this MySQL server
+[2022-18-10 19:07:21] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-18-10 19:08:12] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_HOST_NOT_PRIVILEGED: Host '172.20.0.5' is not allowed to connect to this MySQL server
+[2022-18-10 19:08:13] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-18-10 19:16:25] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_HOST_NOT_PRIVILEGED: Host '172.21.0.6' is not allowed to connect to this MySQL server
+[2022-18-10 19:16:26] [INFO]: 🚀 Server listening at: http://127.0.0.1:8000
+[2022-18-10 19:18:39] [ERROR]: StatusCode 500, ErrorCode MYSQL_CONNECT_FAIL 
+Error: ER_HOST_NOT_PRIVILEGED: Host '172.22.0.7' is not allowed to connect to this MySQL server
+[2022-18-10 19:18:39] [INFO]: 🚀 Server listening at: http://172.22.0.7:8000

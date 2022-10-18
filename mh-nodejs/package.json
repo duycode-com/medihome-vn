@@ -7,6 +7,7 @@
 		"watch-tsc": "tsc --watch --project tsconfig.json",
 		"build": "tsc --build --clean && tsc",
 		"start": "nodemon -L build/index.js",
+    "kill": "taskkill /f /im node.exe",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],

@@ -20,10 +20,11 @@ const start = async () => {
 		Logger.error(new ErrorUtils(500, 'MYSQL_CONNECT_FAIL', error.message))
 	}
 
-	const server = new Server(Env.server.PORT)
+	const server = new Server(Env.server.CONTAINER_PORT)
 	server.initialize()
-	server.app.listen(Env.server.PORT, () => {
-		Logger.info(`🚀 Server listening at: http://${Env.server.ADDRESS}:${Env.server.PORT}`)
+
+	server.app.listen(Env.server.CONTAINER_PORT, () => {
+		Logger.info(`🚀 Server listening at: http://${Env.server.ADDRESS}:${Env.server.DOCKER_PORT}`)
 	})
 }
 

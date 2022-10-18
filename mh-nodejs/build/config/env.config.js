@@ -33,7 +33,8 @@ dotenv.config();
 const Env = {
     server: {
         ADDRESS: (_a = Object.values(os_1.default.networkInterfaces()).flat().find((item) => item.family === 'IPv4')) === null || _a === void 0 ? void 0 : _a.address,
-        PORT: Number(process.env.PORT) || 8888,
+        DOCKER_PORT: Number(process.env.DOCKER_PORT) || 8888,
+        CONTAINER_PORT: Number(process.env.CONTAINER_PORT) || 3000,
     },
     mySql: {
         host: process.env.MYSQL_HOST,

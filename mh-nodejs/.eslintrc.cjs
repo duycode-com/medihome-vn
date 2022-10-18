@@ -15,12 +15,12 @@ module.exports = {
         'no-console': 0,
         'no-tabs': 0, // không sử dụng tab
         'max-len': [2, { code: 120 }], // Chiều dài tối đa
-        'semi': [2, "never"],
+        'semi': [1, "never"],
         "@typescript-eslint/semi": [2, "never"],
-        'no-unused-vars': 0, // khai báo biến mà không sử dụng sẽ lỗi
-        '@typescript-eslint/no-unused-vars': 0,
         'indent': ['error', 'tab'], // thụt lề bằng tab
         '@typescript-eslint/indent': ['error', 'tab'],
+        'no-unused-vars': 0, // khai báo biến mà không sử dụng sẽ lỗi
+        '@typescript-eslint/no-unused-vars': 0,
         'quotes': [2, "single"],
         '@typescript-eslint/quotes': [2, "single"],
         'object-curly-newline': [1, { // quy tắc xuống dòng của object
